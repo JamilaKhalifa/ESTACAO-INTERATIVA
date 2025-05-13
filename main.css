@@ -245,6 +245,22 @@ ul {
     font-weight: bold;
     flex-basis: 40%; /* Define a largura da coluna de rótulos */
   }
+
+  .mascot-right {
+    position: static; /* Remove o posicionamento absoluto em telas pequenas */
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona margem inferior */
+    text-align: center; /* Garante que a imagem fique centralizada */
+  }
+
+  .mascot-right .mascot-image {
+    max-width: 100px; /* Reduz o tamanho da imagem em telas menores */
+    height: auto;
+  }
+
+  #crustacea,
+  #hexapoda {
+    padding-top: 20px; /* Reduz o espaçamento superior para evitar grandes lacunas */
+  }
 }
 
 .group-image {
