@@ -261,6 +261,27 @@ ul {
   #hexapoda {
     padding-top: 20px; /* Reduz o espaçamento superior para evitar grandes lacunas */
   }
+
+  /* Ajuste para o mascote em telas menores */
+  .mascot-right {
+    position: relative; /* Altera para posicionamento relativo */
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona margem inferior */
+    text-align: center; /* Garante que a imagem fique centralizada */
+  }
+
+  .mascot-right .mascot-image {
+    max-width: 120px; /* Reduz o tamanho da imagem em telas menores */
+    height: auto;
+  }
+
+  #crustacea,
+  #hexapoda {
+    padding-top: 0; /* Remove o espaçamento superior desnecessário */
+  }
+
+  .content {
+    padding-top: 20px; /* Adiciona um espaçamento interno para o conteúdo */
+  }
 }
 
 .group-image {
@@ -536,4 +557,3 @@ tr:nth-child(even) {
 
 .tab-button:hover {
   background-color: #ddd; /* Cinza mais escuro ao passar o mouse */
-}
