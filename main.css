@@ -379,7 +379,7 @@ tr:nth-child(even) {
 }
 
 .mascot-right .mascot-image {
-  max-width: 200px; /* Ajuste o tamanho conforme necessário */
+  max-width: 150px; /* Ajuste o tamanho conforme necessário */
   height: auto;
 }
 
@@ -387,7 +387,7 @@ tr:nth-child(even) {
 #crustacea,
 #hexapoda {
   position: relative;
-  padding-top: 150px; /* Adiciona espaço no topo para evitar sobreposição */
+  padding-top: 200px; /* Adiciona espaço no topo para evitar sobreposição */
 }
 
 .mascot-right {
