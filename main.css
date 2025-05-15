@@ -379,7 +379,7 @@ tr:nth-child(even) {
 }
 
 .mascot-right .mascot-image {
-  max-width: 150px; /* Ajuste o tamanho conforme necessário */
+  max-width: 200px; /* Ajuste o tamanho conforme necessário */
   height: auto;
 }
 
